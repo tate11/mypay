@@ -12,7 +12,7 @@
     'author': "Mali ,MuhlhelITS",
     'website': "http://natigroup.biz",
     'price': 100.00,
-    'currency': 'EUR',
+    'currency': 'USD',
      'license': 'OPL-1',
     'category': 'Localization',
     'version': '13.0.0.0',
