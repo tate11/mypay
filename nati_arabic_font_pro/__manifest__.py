@@ -15,7 +15,7 @@
     'currency': 'EUR',
      'license': 'OPL-1',
     'category': 'Localization',
-    'version': '14.0.0.0',
+    'version': '13.0.0.0',
     'depends': ['web'],
     'qweb': [],
     'data': ['views/linkestatic.xml',   
