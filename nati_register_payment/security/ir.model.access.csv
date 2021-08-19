@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_nati_register_payment_payment,nati_register_payment.payment,model_nati_register_payment_payment,base.group_user,1,1,1,1
+access_nati_register_payment_payment_register,nati_register_payment.payment.register,model_nati_register_payment_payment_register,base.group_user,1,1,1,1

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+<record id="sequence_register_payment" model="ir.sequence">
+   <field name="name">Register Payment</field>
+   <field name="code">register.payment</field>
+   <field name="active">TRUE</field>
+   <field name="prefix">RP</field>
+   <field name="padding">6</field>
+   <field name="number_next">1</field>
+   <field name="number_increment">1</field>
+</record>
+    </data>
+  <data>
+  
+<record id="paperformat_Nati58mm" model="report.paperformat">
+      <field name="name">Nati 58mm</field>
+      <field name="default" eval="True"/>
+      <field name="format">custom</field>
+      <field name="page_height">220</field>
+      <field name="page_width">50</field>
+      <field name="orientation">Portrait</field>
+      <field name="margin_top">0</field>
+      <field name="margin_bottom">15</field>
+      <field name="margin_left">0</field>
+      <field name="margin_right">0</field>
+      <field name="header_line" eval="False"/>
+      <field name="header_spacing">0</field>
+      <field name="dpi">90</field>
+    </record>
+    <report
+       string="Sales Payment Customer"
+       id="action_register_payment_slip_customer"
+       model="nati_register_payment.payment"
+       report_type="qweb-pdf"
+       paperformat="paperformat_Nati58mm"
+       name="nati_register_payment.report_paymentslip_customer"
+       menu="False"
+       file="nati_register_payment.report_paymentslip_customer"
+       print_report_name="'SlipCustomer  - %s' % (object.name)"
+      />
+    
+    <template id="report_paymentslip_customer">
+
+                    <t t-call="web.html_container">
+                        <t t-foreach="docs" t-as="o">
+                            <t t-call="nati_register_payment.report_paymentslip_document_customer" t-lang="o.partner_id.lang"/>
+                        </t>
+                     </t>
+    </template>
+
+       <report
+       string="Sales Payment Dealer"
+       id="action_register_payment_slip_dealer"
+       model="nati_register_payment.payment"
+       report_type="qweb-pdf"
+       paperformat="paperformat_Nati58mm"
+       name="nati_register_payment.report_paymentslip_dealer"
+       menu="False"
+       file="nati_register_payment.report_paymentslip_dealer"
+       print_report_name="'SlipDealer  - %s' % (object.name)"
+      />
+
+    <template id="report_paymentslip_dealer">
+
+                    <t t-call="web.html_container">
+                        <t t-foreach="docs" t-as="o">
+                            <t t-call="nati_register_payment.report_paymentslip_document_dealer" t-lang="o.partner_id.lang"/>
+                        </t>
+                     </t>
+    </template>
+  </data>
+</odoo>

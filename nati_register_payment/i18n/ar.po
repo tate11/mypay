@@ -1,0 +1,720 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* nati_register_payment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210603\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-18 08:30+0000\n"
+"PO-Revision-Date: 2021-08-18 11:33+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: nati_register_payment
+#: model:ir.actions.report,print_report_name:nati_register_payment.action_register_payment_slip_customer
+msgid "'SlipCustomer  - %s' % (object.name)"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.actions.report,print_report_name:nati_register_payment.action_register_payment_slip_dealer
+msgid "'SlipDealer  - %s' % (object.name)"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_kanban
+msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_customer
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_dealer
+msgid "<span class=\"naticenter natifont16\"> Received From : </span>"
+msgstr "‫<span class=“naticenter natifont16”> استمنا من  : </span>"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_customer
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_dealer
+msgid "<span class=\"naticenter\"> For : </span>"
+msgstr "‫<span class=“naticenter”> وذلك مقابل : </span>"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_customer
+msgid "<span class=\"naticenter\"> Maheroon to go on</span>"
+msgstr "‫<span class=“naticenter”> ماهرون صنعت لتدوم </span>"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_customer
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_dealer
+msgid "<span class=\"naticenter\"> Received By :</span>"
+msgstr "‫<span class=“naticenter”> المستلم :</span>"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_customer
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_dealer
+msgid "<span class=\"naticenter\"> The Amount of: </span>"
+msgstr "‫<span class=“naticenter”> مبلغ وقدره : </span>"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_customer
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_dealer
+msgid ""
+"<span class=\"naticenter\"> This receipt is temporary for 5 days, don't forget to "
+"receive your stamped copy </span>"
+msgstr ""
+"‫<span class=“naticenter”> هذا السند صادر  بشكل رسمي من نظام ماهرون ولا يحتاج إلى "
+"توقيع   </span>"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_customer
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_dealer
+msgid "<span> Cash Receipt : </span>"
+msgstr "‫<span> سند قبض : </span>"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_customer
+msgid "<span> Customer Copy : </span>"
+msgstr "‫<span> نسخة العميل : </span>"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_dealer
+msgid "<span> Dealer Copy : </span>"
+msgstr "‫<span> نسخة التاجر : </span>"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_customer
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.report_paymentslip_document_dealer
+msgid "<span> VAT No : </span>"
+msgstr "‫<span> الرقم الضريبي : </span>"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__access_warning
+msgid "Access warning"
+msgstr "تحذير الوصول"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_needaction
+msgid "Action Needed"
+msgstr "محتاج لفعل"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__activity_ids
+msgid "Activities"
+msgstr "الاحداث"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__amount
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__amount
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_tree
+msgid "Amount"
+msgstr "المبلغ"
+
+#. module: nati_register_payment
+#: code:addons/nati_register_payment/models/register_payment.py:0
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__num_word
+#, python-format
+msgid "Amount In Words:"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment__payment_method__bank
+msgid "Bank"
+msgstr "تحويل"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__campaign_id
+msgid "Campaign"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_account_payment_register_form
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_form
+msgid "Cancel"
+msgstr "الغاء"
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment__state__cancelled
+msgid "Cancelled"
+msgstr "ملغي"
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment__payment_method__cash
+msgid "Cash"
+msgstr "نقد"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__company_id
+msgid "Company"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_form
+msgid "Confirm"
+msgstr "تأكيد"
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment__state__confirmed
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_account_payment_register_form
+msgid "Create Payment"
+msgstr "انشاء سند"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__create_uid
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__create_uid
+msgid "Created by"
+msgstr "انشىء بواسطة"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__create_date
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__create_date
+msgid "Created on"
+msgstr "انشىء بتاريخ"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__currency_id
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__currency_id
+msgid "Currency"
+msgstr "العملة"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__partner_id
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__partner_id
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment_register__partner_type__customer
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_tree
+msgid "Customer"
+msgstr "العميل"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__access_url
+msgid "Customer Portal URL"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Customer/Vendor"
+msgstr "العميل/المورد"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_account_payment__display_name
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__display_name
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment__state__draft
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "From 2 Months"
+msgstr "من شهرين"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "From 2 Weeks"
+msgstr "من اسبوعين"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "From 2 days"
+msgstr "من يومين"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "From 3 Months"
+msgstr "من ثلاثه اشهر"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "From 3 days"
+msgstr "من ثلاثة أيام"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Future Activities"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_account_payment__id
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__id
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__message_needaction
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__message_has_error
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__journal_id
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__journal_id
+msgid "Journal"
+msgstr "دفتر اليومية"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_account_payment____last_update
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment____last_update
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Last Month"
+msgstr "الشهر الماضي"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__write_uid
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__write_uid
+msgid "Last Updated by"
+msgstr "اخر تحديث بواسطة"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__write_date
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__write_date
+msgid "Last Updated on"
+msgstr "اخر تحديث في"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Last Week"
+msgstr "الأسبوع الماضي"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Late Activities"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__medium_id
+msgid "Medium"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__communication
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_form
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Memo"
+msgstr "البيان"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "No Payment"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment__payment_method__pos
+msgid "POS"
+msgstr "شبكة"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__posno
+msgid "POS NO"
+msgstr "رقم الموازنة"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__partner_type
+msgid "Partner Type"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__payment_date
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Payment Date"
+msgstr "تاريخ الوصل"
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment__payment_method__gateway
+msgid "Payment Gateway"
+msgstr "بوابة دفع"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__payment_method
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Payment Method"
+msgstr "طريقة الدفع"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__name
+msgid "Payment Number"
+msgstr "رقم الوصل"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__payment_type
+msgid "Payment Type"
+msgstr ""
+
+#. module: nati_register_payment
+#: code:addons/nati_register_payment/wizard/nati_account_payment_register.py:0
+#: model:ir.actions.act_window,name:nati_register_payment.nati_register_payment_action
+#: model:ir.model,name:nati_register_payment.model_account_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+#, python-format
+msgid "Payments"
+msgstr "استلامات المقبوضات"
+
+#. module: nati_register_payment
+#: model_terms:ir.actions.act_window,help:nati_register_payment.nati_register_payment_action
+msgid ""
+"Payments are used to register liquidity movements. You can process those payments "
+"by your own means\n"
+"                    or by using installed facilities."
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__access_url
+msgid "Portal Access URL"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_form
+msgid "Post"
+msgstr "ترحيل"
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment__state__posted
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Posted"
+msgstr "مرحل"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_form
+msgid "Print"
+msgstr "طباعة"
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment__state__printed
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Printed"
+msgstr "مطبوع"
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment_register__payment_type__inbound
+msgid "Receive Money"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__payment_id
+msgid "Receive Payment"
+msgstr "سند قبض"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__ref
+msgid "Reference"
+msgstr "المرجع"
+
+#. module: nati_register_payment
+#: code:addons/nati_register_payment/models/register_payment.py:0
+#: model:ir.model,name:nati_register_payment.model_nati_register_payment_payment_register
+#: model:ir.model.fields,field_description:nati_register_payment.field_account_payment__paymentreg_id
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment_register__paymentreg_id
+#: model:ir.ui.menu,name:nati_register_payment.menu_nati_acc_register_payment
+#: model:ir.ui.menu,name:nati_register_payment.menu_nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.nati_account_payment_custom_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_account_payment_register_form
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_form
+#, python-format
+msgid "Register Payment"
+msgstr "وصل المقبوضات"
+
+#. module: nati_register_payment
+#: model_terms:ir.actions.act_window,help:nati_register_payment.nati_register_payment_action
+msgid "Register a payment"
+msgstr "وصل استلام"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_form
+msgid "Reset To Draft"
+msgstr "اعادة الى مسودة"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.actions.report,name:nati_register_payment.action_register_payment_slip_customer
+msgid "Sales Payment Customer"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.actions.report,name:nati_register_payment.action_register_payment_slip_dealer
+msgid "Sales Payment Dealer"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Sales Person"
+msgstr "مسؤول المبيعات"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__user_id
+msgid "Salesperson"
+msgstr "مسؤول المبيعات"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__access_token
+msgid "Security Token"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment_register__payment_type__outbound
+msgid "Send Money"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Show all records which has next action date is before today"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__source_id
+msgid "Source"
+msgstr "المصدر"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__state
+msgid "Status"
+msgstr "الحالة"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.constraint,message:nati_register_payment.constraint_nati_register_payment_payment_check_amount_not_negative
+msgid "The payment amount cannot be negative."
+msgstr "المبلغ لايمكن ان يكون قيمة سالبة."
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__currency_id
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment_register__currency_id
+msgid "The payment's currency."
+msgstr "عملة الدفع."
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "This Month"
+msgstr "هذا الشهر"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "This Week"
+msgstr "هذا الأسبوع"
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__campaign_id
+msgid ""
+"This is a name that helps you keep track of your different campaign efforts, e.g. "
+"Fall_Drive, Christmas_Special"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__medium_id
+msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__source_id
+msgid ""
+"This is the source of the link, e.g. Search Engine, another domain, or name of "
+"email list"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Today"
+msgstr "اليوم"
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Today Activities"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields.selection,name:nati_register_payment.selection__nati_register_payment_payment_register__partner_type__supplier
+msgid "Vendor"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,field_description:nati_register_payment.field_nati_register_payment_payment__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: nati_register_payment
+#: model:ir.model.fields,help:nati_register_payment.field_nati_register_payment_payment__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: nati_register_payment
+#: model_terms:ir.ui.view,arch_db:nati_register_payment.view_nati_register_payment_search
+msgid "Yesterday"
+msgstr "أمس"
+
+#. module: nati_register_payment
+#: model:ir.model,name:nati_register_payment.model_nati_register_payment_payment
+msgid "nati_register_payment.payment"
+msgstr "وصل مقبوضات"

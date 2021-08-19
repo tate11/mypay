@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="nati_account_payment_custom_inherit_form_view" model="ir.ui.view">
+            <field name="name">nati_account_payment.inherit_form_view</field>
+            <field name="model">account.payment</field>
+            <field name="inherit_id" ref="account.view_account_payment_form" />
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <field name="move_id" position="after">
+                    <field name="paymentreg_id" groups="account.group_account_invoice"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="nati_account_payment_custom_inherit_search_view" model="ir.ui.view">
+            <field name="name">nati_account_payment_custom.inherit_search_view</field>
+            <field name="model">account.payment</field>
+            <field name="inherit_id" ref="account.view_account_payment_search"/>
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="paymentreg_id" string="Register Payment"/>
+                 </field>
+
+             </field>
+        </record>
+
+        <record id="nati_account_payment_custom_inherit_tree_view" model="ir.ui.view">
+            <field name="name">nati_account_payment.inherit_tree_view</field>
+            <field name="model">account.payment</field>
+            <field name="inherit_id" ref="account.view_account_payment_tree" />
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="paymentreg_id"/>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</odoo>

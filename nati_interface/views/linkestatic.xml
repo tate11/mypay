@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="nati_interface_web_assets_common" inherit_id="web.assets_common">
+		    <xpath expr="." position="inside">
+                <link rel='stylesheet' href="/nati_interface/static/src/scss/web_style.scss" type="text/scss"/>
+                <link rel='stylesheet' href="/nati_interface/static/src/scss/menu_mobile.scss" type="text/scss"/>
+                <link rel='stylesheet' href="/nati_interface/static/src/scss/ui.scss" type="text/scss"/>
+
+            </xpath>
+        </template>
+        
+
+    </data>
+</odoo>

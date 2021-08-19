@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="sale_order_warn_wizard_view_form" model="ir.ui.view">
+        <field name="name">sale.order.warn.wizard.view.form</field>
+        <field name="model">sale.order.warn.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <div class="row container">
+                    <div class="col-12 text-center">
+                      <div class="card text-white bg-danger mb-3 w-75 ml64">
+                        <div class="card-body bg-transparent text-center">
+                            <field name="sale_order_id" invisible="1"/>
+                            <p><field name="warning_message" readonly="1"/></p>
+                          <p>Do you want confirm?</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <footer>
+                    <button name="action_confirm"
+                            type="object"
+                            string="Yes"
+                            class="btn-primary"
+                    />
+                    <button name="cancel_button"
+                            string="No"
+                            class="btn-secondary"
+                            special="cancel"
+                    />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>

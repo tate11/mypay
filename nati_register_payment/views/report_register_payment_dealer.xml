@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+   <template id="report_paymentslip_document_dealer">
+             <t t-if="o and 'company_id' in o">
+           <t t-set="company" t-value="o.company_id"></t>
+       </t>
+       <t t-if="not o or not 'company_id' in o">
+           <t t-set="company" t-value="res_company"></t>
+       </t>
+       <div class="header">
+           <div class="row">
+               <div class="col-12">
+                   <img t-if="company.logo" t-att-src="'data:image/png;base64,%s' % to_text(company.logo)"
+                        style="max-height: 50px;"/>
+               </div>
+           </div>
+       </div>
+    <t t-call="web.external_layout">
+        <t t-set="o" t-value="o.with_context({'lang':o.partner_id.lang})"/>
+        <div class="page natifont12" style="border:solid;border-width:0px;">
+
+          <br/><br/><br/><br/>
+
+          <div class="row">
+              <div class="col-12 naticenter natifont18">
+                  <span> VAT No : </span>
+                  <strong> <span class="natifont20" style="color:black;" t-field="company.vat" /></strong>
+              </div>
+          </div>
+
+          <br/><br/>
+          <div class="row">
+              <div class="col-12 naticenter natifont20">
+                  <span> Dealer Copy : </span>
+              </div>
+          </div>
+
+          <div class="row">
+                  <div class="col-6 text-left">
+                      <span class="natifont12" t-field="o.date" t-options='{"widget": "date"}'/>
+                  </div>
+                  <div class="col-6 text-right">
+                      <strong> <span class="natifont12" t-field="o.payment_method" /></strong>
+                  </div>
+              </div>
+          <br/><br/>
+
+          <div class="row">
+              <div class="col-12 naticenter natifont20">
+                  <span> Cash Receipt : </span>
+                  <span t-field="o.name" class="natifont14"/>
+              </div>
+          </div>
+          <br/>
+
+          <div class="row">
+              <div class="col-12 naticenter">
+                  <span class="naticenter natifont16"> Received From : </span>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12 naticenter">
+                  <span class="naticenter natifont14" t-field="o.partner_id" />
+              </div>
+          </div>
+          <br/>
+           <div class="row" style="border:solid;border-width:1px;">
+                  <div class="col-12 naticenter">
+                      <span class="naticenter"> The Amount of: </span>
+                       <strong class="natifont18" t-field="o.amount" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
+                  </div>
+              </div>
+          <div class="row" style="border:solid;border-width:0px;">
+              <div class="col-12 naticenter">
+                  <span class="naticenter" t-field="o.num_word" />
+              </div>
+          </div>
+          <br/>
+          <div class="row">
+              <div class="col-12 naticenter">
+                  <span class="naticenter"> For : </span>
+                  <span class="naticenter" t-field="o.ref" />
+              </div>
+          </div>
+          <br/>
+           <div class="row" style="border:solid;border-width:1px;">
+                   <div class="col-12 text-right">
+                       <span class="naticenter"> Received By :</span>
+                       <span class="naticenter" t-field="o.user_id" />
+                  </div>
+              </div>
+          <br/><br/><br/>
+          <div class="row">
+                   <div class="col-12 naticenter" style="border:solid;border-width:1px;">
+                       <span class="naticenter"> This receipt is temporary for 5 days, don't forget to receive your stamped copy </span>
+                  </div>
+              </div>
+          <br/><br/><br/><br/>
+             <div class="row">
+                 <div class="col-12 naticenter">
+                      <t t-set="receiptNo" t-value="o.name"/>
+                     <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s'%('Code128', receiptNo, 200, 20)"/>
+                  </div>
+             </div>
+         <br/><br/>
+          <div class="row">
+                 <div class="col-12 naticenter">
+                    <t t-set="QRmap" t-value="'Payment Receipt=%s,%s,%s,%s' % (o.user_id.name,o.name,o.amount,o.partner_id.name)"/>
+                    <img class="m-0"  t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR',QRmap, 100, 100)"/>
+                  </div>
+          </div>
+
+      </div>
+
+    </t>
+   </template>
+
+  </data>
+</odoo>

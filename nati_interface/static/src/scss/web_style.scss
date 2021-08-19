@@ -1,0 +1,28 @@
+
+$maincolor: #599139 !default;
+//$maincolor: #edadb4 !default;
+$maindarkcolor: #254e24 !default;
+
+.o_main_navbar {
+    background-color: $maincolor;
+}
+.o_main_navbar .show .dropdown-toggle {
+    background-color: $maindarkcolor;
+}
+.o_main_navbar > a:hover, .o_main_navbar > a:focus, .o_main_navbar > button:hover, .o_main_navbar > button:focus {
+    background-color: $maindarkcolor;
+}
+
+.o_main_navbar > ul > li > a:hover, .o_main_navbar > ul > li > label:hover {
+   background-color: $maindarkcolor;
+}
+
+.o_searchview .o_searchview_facet .o_searchview_facet_label {
+    background-color: $maincolor !important;
+}
+.o_ChatWindowHeader {
+    background-color: $maincolor !important;
+}
+.o_MessageSeenIndicator.o-all-seen {
+    color: $maincolor !important;
+}

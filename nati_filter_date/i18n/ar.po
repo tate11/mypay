@@ -1,0 +1,128 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* nati_filter_date
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210603\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-18 08:22+0000\n"
+"PO-Revision-Date: 2021-08-18 11:24+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "From 2 Months"
+msgstr "من شهرين"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "From 2 Weeks"
+msgstr "من اسبوعين"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "From 2 days"
+msgstr "من يومين"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "From 3 Months"
+msgstr "من ٣ أشهر"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "From 3 days"
+msgstr "من ٣ أيام"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "Last Month"
+msgstr "الشهر الماضي"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "Last Week"
+msgstr "الأسبوع الماضي"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "This Month"
+msgstr "هذا الشهر"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "This Week"
+msgstr "هذا الأسبوع"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "Today"
+msgstr "اليوم"
+
+#. module: nati_filter_date
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_move_journal_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_account_payment_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_filter_stock_picking_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_purchase_order_inherit_search_view
+#: model_terms:ir.ui.view,arch_db:nati_filter_date.nati_sale_order_view_search_inherit
+msgid "Yesterday"
+msgstr "أمس"

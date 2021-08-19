@@ -1,0 +1,23 @@
+
+:root {
+  --maincolor: #00a04a;
+  --maindarkcolor: #046731;
+}
+
+.o_main_navbar {
+    background-color: var(--maincolor);
+}
+.o_main_navbar .show .dropdown-toggle {
+    background-color: var(--maindarkcolor);
+}
+.o_main_navbar > a:hover, .o_main_navbar > a:focus, .o_main_navbar > button:hover, .o_main_navbar > button:focus {
+    background-color: var(--maindarkcolor);
+}
+
+.o_main_navbar > ul > li > a:hover, .o_main_navbar > ul > li > label:hover {
+   background-color: var(--maindarkcolor);
+}
+.o_searchview .o_searchview_facet .o_searchview_facet_label {
+    background-color: var(--maincolor) !important;
+}
+

@@ -1,0 +1,46 @@
+
+
+$o-main-text-color1:#6c51ec;
+$o-main-color-muted1:#ee1b1b;
+
+.o_burger_menu {
+
+
+    .o_burger_menu_topbar {
+
+        background:  $maincolor !important;
+
+
+
+
+    }
+
+    .o_burger_menu_content {
+
+        &.o_burger_menu_dark {
+            background-color:$maindarkcolor !important;
+        }
+
+
+        }
+
+        .o_burger_menu_user {
+            color: $o-main-text-color1 !important;
+
+            .o_user_menu_mobile {
+
+                > li {
+                    &.divider { // FIXME ?
+                        background-color: $o-main-color-muted1 !important;
+
+                    }
+                    > a {
+
+                        color: $o-main-text-color1 !important;
+                    }
+                }
+            }
+        }
+    }
+
+
